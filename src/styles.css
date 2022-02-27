@@ -1,0 +1,25 @@
+.cell {
+  border: 2px solid grey;
+  display: table-cell;
+  width: 25px;
+  height: 25px;
+}
+
+#grid {
+  display: table;
+}
+.row {
+  display: table-row;
+}
+
+.snake-body {
+  background: black;
+}
+
+.snake-head {
+  background: red;
+}
+
+.dead {
+  background: orange;
+}
